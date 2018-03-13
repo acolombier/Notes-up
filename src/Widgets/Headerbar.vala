@@ -144,6 +144,7 @@ public class ENotes.Headerbar : Gtk.HeaderBar {
         menu_button = new Gtk.MenuButton ();
         menu_button.set_popup (menu);
         menu_button.set_image (new Gtk.Image.from_icon_name ("open-menu", Gtk.IconSize.LARGE_TOOLBAR));
+        menu_button.set_tooltip_text (_("Menu")); 
         menu.show_all ();
     }
 
